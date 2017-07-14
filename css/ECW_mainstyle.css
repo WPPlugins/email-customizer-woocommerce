@@ -1,0 +1,117 @@
+.ecw_pointer
+{
+cursor:pointer;
+pointer-events:none;
+opacity: 0.5;
+}
+.ecw_main_title
+{
+padding: 1% 1.5%;
+background:#DCD8D4;
+border: 1px solid #C6C2BF;
+border-radius: 6px 6px 0px 0px;
+font-weight: bold;
+text-align: left;
+font-size: 18px;
+}
+#ecw_main_table  tr > th  
+{
+font-size:15px;
+text-align: left;
+}
+#ecw_main_page { 
+	font-family: "Open Sans",sans-serif !important;
+}
+#ecw_main_table tr > td 
+{
+font-size:13px;
+text-align: left;
+}
+
+.view_template_link {
+background:none!important;
+border:none; 
+padding:0!important;
+font: inherit;
+color:#347ECA;
+/*border is optional*/
+/*     border-bottom:1px solid #444; */
+cursor: pointer;
+}
+
+.tooltipd {
+    position:relative;
+    display: inline-block;
+}
+
+.tooltipd .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color:;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+   height:20px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index:0;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -70px;
+}
+.tooltiptext a {
+text-decoration:none;
+color:red;
+}
+.tooltipd:hover .tooltiptext {
+    visibility: visible;
+}
+.panel-group .panel {
+	margin-bottom: 5px !important;
+}
+.panel {
+	border: 0;
+}
+.panel-body {
+    border: 1px solid #ccc;
+    border-radius: 0px 0px 6px 6px;
+}
+.panel-heading {
+    border: 1px solid #ccc !important;
+}
+
+.ecw_activate {
+        color: #fff !important;
+        background-color: #0074A2;
+}
+
+.ecw_activate a{
+        color: #fff !important;
+}
+
+.ecw_deactivate a{
+        color: #fff !important;
+}
+
+#ECWfree_create_new_template:hover{
+background-color:#79B71B;
+color:white;
+}
+
+.ECW_pro_upgrade_notice {
+  background-color: #ffb8b8;
+    border: 1px solid #ff8383;
+    color: red;
+    display: block;
+    margin-top: 40px;
+    margin-left:20px;
+    padding: 20px;
+    float:center;
+    text-color:red;
+}
+
+.ECW_pro_upgrade_notice > a {
+   color:#FF0000; !important;
+}
+
